@@ -15,6 +15,10 @@
     <string name="retypePasswordText"> Re-enter Password </string>
     <string name="signUpThirdTitle"> Aadhar EKYC to e-sign </string>
     <string name="signUpThirdText"> Use your Aadhar (mobile OTP) to digitally sign the application form online instantly. </string>
+    <string name="loginTitle"> Log in </string>
+    <string name="loginScreenPasswordText"> Password </string>
+    <string name="loginBottomText"> Forgot Password? \u0020 Get help here </string>
+
 
 
 </resources>
