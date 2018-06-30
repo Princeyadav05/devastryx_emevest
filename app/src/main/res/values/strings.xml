@@ -18,6 +18,9 @@
     <string name="loginTitle"> Log in </string>
     <string name="loginScreenPasswordText"> Password </string>
     <string name="loginBottomText"> Forgot Password? \u0020 Get help here </string>
+    <string name="forgotPasswordTitle"> Forgot Password </string>
+    <string name="forgotPasswordText"> Enter your Emevest registered Phone number, that you used to register. We will send you an sms to recover your account. </string>
+    <string name="sendText"> Send </string>
 
 
 
