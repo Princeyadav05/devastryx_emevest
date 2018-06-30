@@ -13,6 +13,8 @@
     <string name="signUpSecondTitle"> Create a Password </string>
     <string name="passwordText"> Create Password </string>
     <string name="retypePasswordText"> Re-enter Password </string>
+    <string name="signUpThirdTitle"> Aadhar EKYC to e-sign </string>
+    <string name="signUpThirdText"> Use your Aadhar (mobile OTP) to digitally sign the application form online instantly. </string>
 
 
 </resources>
