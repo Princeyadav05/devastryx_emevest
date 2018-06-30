@@ -4,8 +4,12 @@
     <string name="tvText"> 100% Secured </string>
     <string name="homeTitle"> Save Efficiently </string>
     <string name="homeText"> Save money into customizable and prebuilt portfolios, which are built over thousand of stocks. </string>
-    <string name="createAccountText"> Create Account </string>
+    <string name="createAccountText"> Create a Account </string>
     <string name="homeBottomText"> Already have an Emevest Account </string>
     <string name="homeBottomLogin"> Login </string>
+    <string name="signUpFirstText"> This number will be used to send you regular updates and notification about your trading account. </string>
+    <string name="phoneNumberText"> Phone No. </string>
+    <string name="otpText"> OTP </string>
+
 
 </resources>
