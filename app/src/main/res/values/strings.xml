@@ -10,6 +10,9 @@
     <string name="signUpFirstText"> This number will be used to send you regular updates and notification about your trading account. </string>
     <string name="phoneNumberText"> Phone No. </string>
     <string name="otpText"> OTP </string>
+    <string name="signUpSecondTitle"> Create a Password </string>
+    <string name="passwordText"> Create Password </string>
+    <string name="retypePasswordText"> Re-enter Password </string>
 
 
 </resources>

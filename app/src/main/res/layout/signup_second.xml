@@ -14,29 +14,15 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/sign_up_first_title"
+            android:id="@+id/sign_up_second_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/createAccountText"
+            android:text="@string/signUpSecondTitle"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="30sp"
             android:textColor="@android:color/white"
             android:textStyle="bold" />
 
-
-        <TextView
-            android:id="@+id/sign_up_first_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/signUpFirstText"
-            android:layout_gravity="center"
-            android:layout_marginEnd="30dp"
-            android:layout_marginStart="30dp"
-            android:textColor="@android:color/white"
-            android:layout_marginTop="20dp"
-            android:gravity="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textSize="18sp" />
     </LinearLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -73,11 +59,11 @@
             android:layout_marginEnd="30dp"/>
 
         <TextView
-            android:id="@+id/otp_text"
+            android:id="@+id/password_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@android:color/white"
-            android:text="@string/otpText"
+            android:text="@string/passwordText"
             android:textSize="22sp"
             android:textStyle="bold"
             android:paddingTop="15dp"
@@ -85,14 +71,37 @@
             />
 
         <EditText
-            android:id="@+id/otp"
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:background="@drawable/border"
-            android:ems="10"
-            android:inputType="numberSigned"
+            android:inputType="textPassword"
+            android:textSize="35sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
+
+        <TextView
+            android:id="@+id/retype_password_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="@string/retypePasswordText"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingTop="15dp"
+            android:paddingStart="30dp"
+            />
+
+        <EditText
+            android:id="@+id/retype_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/border"
+            android:inputType="textPassword"
             android:textSize="35sp"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"/>
